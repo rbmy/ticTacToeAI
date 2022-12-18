@@ -61,4 +61,4 @@ if __name__ == '__main__':
     mpt.title("Win percentage")
     mpt.xlabel("Player")
     mpt.ylabel("Winning percentage")
-    mpt.show()
+    mpt.savefig("imgs/stats.png")
